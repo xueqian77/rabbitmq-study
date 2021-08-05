@@ -1,0 +1,12 @@
+server:
+  port: 10086
+
+spring:
+  rabbitmq:
+    host: [mq的ID]
+    port: [mq的端口]
+    username: [mq的用户名]
+    password: [mq的密码]
+    publisher-confirm-type: simple
+    publisher-returns: true
+    virtual-host: /
