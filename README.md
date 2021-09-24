@@ -18,6 +18,12 @@
 
 1.网上教程很多，这里就不复述了，跟据自己的环境去搜索安装吧。
 
+#### 使用建议
+
+1.请先安装RabbitMQ
+2.请对RabbitMQ有一些基本的认识，知道基本的工作流程
+3.请了解不同交换机的作用
+
 #### 目录结构
 ``` lua
 rabbitmq-study
@@ -47,7 +53,7 @@ rabbitmq-study
 #### 使用说明
 
 1. 按照(`resources/application.yml_template`)增加(`resources/application.yml`)配置文件
-    1. 修改数据库链接
+    1. 修改mq配置文件
 2. 运行项目
     1. springboot启动类启动
 
